@@ -1,7 +1,7 @@
 # Attention-Notebook
 AM机制的各类形态：soft AM，hard AM，global AM，local AM，self AM，bi-DAF
 
-1. 首先Yoshua Benjio团队，Baunadau 2015是将attention引入NLP的鼻祖，基于CHO【Learning phrase representations using RNN encoder-decoder for statistical machine translation. In Proceedings of the Empiricial Methods in Natural Language Processing (EMNLP 2014) 】的端到端RNN模型加入Attention。也叫***global attention、soft attention、动态AM***，这里global是指给全部输入都分配一个权值，动态强调的则是，每个单词都用网络跑一个权值e_ij，相应地静态就是指对每个句子只算一个权值）
+1. 首先Yoshua Benjio团队，Baunadau 2015是将attention引入NLP的鼻祖，基于CHO【Learning phrase representations using RNN encoder-decoder for statistical machine translation. In Proceedings of the Empiricial Methods in Natural Language Processing (EMNLP 2014) 】的端到端RNN模型加入Attention。也叫**global attention、soft attention、动态AM**，这里global是指给全部输入都分配一个权值，动态强调的则是，每个单词都用网络跑一个权值e_ij，相应地静态就是指对每个句子只算一个权值）
 
 2. 之后把窗口变一变得到local AM，【斯坦福大学Manning研究组 2015 ACL Effective Approaches to Attention-based Neural Machine Translation】
 
